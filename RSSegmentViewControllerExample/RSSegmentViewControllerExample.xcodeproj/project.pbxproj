@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2773B731D0C662F00EB2825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2773B721D0C662F00EB2825 /* main.m */; };
+		A2773B761D0C662F00EB2825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2773B751D0C662F00EB2825 /* AppDelegate.m */; };
+		A2773B7C1D0C662F00EB2825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2773B7A1D0C662F00EB2825 /* Main.storyboard */; };
+		A2773B7E1D0C662F00EB2825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2773B7D1D0C662F00EB2825 /* Assets.xcassets */; };
+		A2773B811D0C662F00EB2825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2773B7F1D0C662F00EB2825 /* LaunchScreen.storyboard */; };
+		A29EE21B1D0D19EE006B1D39 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = A29EE2161D0D19EE006B1D39 /* ViewController1.m */; };
+		A29EE21C1D0D19EE006B1D39 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A29EE2181D0D19EE006B1D39 /* ViewController2.m */; };
+		A29EE21D1D0D19EE006B1D39 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = A29EE21A1D0D19EE006B1D39 /* ViewController3.m */; };
+		A29EE2201D0D1B02006B1D39 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29EE21F1D0D1B02006B1D39 /* HomeViewController.m */; };
+		A2E7AEF81D0D49350087C8B9 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEE51D0D49350087C8B9 /* HMSegmentedControl.m */; };
+		A2E7AEF91D0D49350087C8B9 /* MXPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEE81D0D49350087C8B9 /* MXPagerView.m */; };
+		A2E7AEFA1D0D49350087C8B9 /* MXPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEEA1D0D49350087C8B9 /* MXPagerViewController.m */; };
+		A2E7AEFB1D0D49350087C8B9 /* MXParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEED1D0D49350087C8B9 /* MXParallaxHeader.m */; };
+		A2E7AEFC1D0D49350087C8B9 /* MXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEEF1D0D49350087C8B9 /* MXScrollView.m */; };
+		A2E7AEFD1D0D49350087C8B9 /* MXScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEF11D0D49350087C8B9 /* MXScrollViewController.m */; };
+		A2E7AEFE1D0D49350087C8B9 /* MXSegmentedPager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEF31D0D49350087C8B9 /* MXSegmentedPager.m */; };
+		A2E7AEFF1D0D49350087C8B9 /* MXSegmentedPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEF51D0D49350087C8B9 /* MXSegmentedPagerController.m */; };
+		A2E7AF001D0D49350087C8B9 /* RSSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7AEF71D0D49350087C8B9 /* RSSegmentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2773B6E1D0C662F00EB2825 /* RSSegmentViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSegmentViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2773B721D0C662F00EB2825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2773B741D0C662F00EB2825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2773B751D0C662F00EB2825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2773B7B1D0C662F00EB2825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2773B7D1D0C662F00EB2825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2773B801D0C662F00EB2825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2773B821D0C662F00EB2825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29EE2151D0D19EE006B1D39 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		A29EE2161D0D19EE006B1D39 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		A29EE2171D0D19EE006B1D39 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		A29EE2181D0D19EE006B1D39 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		A29EE2191D0D19EE006B1D39 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		A29EE21A1D0D19EE006B1D39 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		A29EE21E1D0D1B02006B1D39 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A29EE21F1D0D1B02006B1D39 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A2E7AEE41D0D49350087C8B9 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		A2E7AEE51D0D49350087C8B9 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		A2E7AEE71D0D49350087C8B9 /* MXPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPagerView.h; sourceTree = "<group>"; };
+		A2E7AEE81D0D49350087C8B9 /* MXPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPagerView.m; sourceTree = "<group>"; };
+		A2E7AEE91D0D49350087C8B9 /* MXPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPagerViewController.h; sourceTree = "<group>"; };
+		A2E7AEEA1D0D49350087C8B9 /* MXPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPagerViewController.m; sourceTree = "<group>"; };
+		A2E7AEEC1D0D49350087C8B9 /* MXParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXParallaxHeader.h; sourceTree = "<group>"; };
+		A2E7AEED1D0D49350087C8B9 /* MXParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXParallaxHeader.m; sourceTree = "<group>"; };
+		A2E7AEEE1D0D49350087C8B9 /* MXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScrollView.h; sourceTree = "<group>"; };
+		A2E7AEEF1D0D49350087C8B9 /* MXScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScrollView.m; sourceTree = "<group>"; };
+		A2E7AEF01D0D49350087C8B9 /* MXScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScrollViewController.h; sourceTree = "<group>"; };
+		A2E7AEF11D0D49350087C8B9 /* MXScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScrollViewController.m; sourceTree = "<group>"; };
+		A2E7AEF21D0D49350087C8B9 /* MXSegmentedPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSegmentedPager.h; sourceTree = "<group>"; };
+		A2E7AEF31D0D49350087C8B9 /* MXSegmentedPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSegmentedPager.m; sourceTree = "<group>"; };
+		A2E7AEF41D0D49350087C8B9 /* MXSegmentedPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSegmentedPagerController.h; sourceTree = "<group>"; };
+		A2E7AEF51D0D49350087C8B9 /* MXSegmentedPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSegmentedPagerController.m; sourceTree = "<group>"; };
+		A2E7AEF61D0D49350087C8B9 /* RSSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSegmentViewController.h; sourceTree = "<group>"; };
+		A2E7AEF71D0D49350087C8B9 /* RSSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSegmentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2773B6B1D0C662F00EB2825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2773B651D0C662F00EB2825 = {
+			isa = PBXGroup;
+			children = (
+				A2773B701D0C662F00EB2825 /* RSSegmentViewControllerExample */,
+				A2773B6F1D0C662F00EB2825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2773B6F1D0C662F00EB2825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2773B6E1D0C662F00EB2825 /* RSSegmentViewControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2773B701D0C662F00EB2825 /* RSSegmentViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				A2773B741D0C662F00EB2825 /* AppDelegate.h */,
+				A2773B751D0C662F00EB2825 /* AppDelegate.m */,
+				A2773B7A1D0C662F00EB2825 /* Main.storyboard */,
+				A2E7AEE11D0D49350087C8B9 /* RSSegmentViewController */,
+				A29EE2141D0D19EE006B1D39 /* ViewControllers */,
+				A2773B7D1D0C662F00EB2825 /* Assets.xcassets */,
+				A2773B7F1D0C662F00EB2825 /* LaunchScreen.storyboard */,
+				A2773B821D0C662F00EB2825 /* Info.plist */,
+				A2773B711D0C662F00EB2825 /* Supporting Files */,
+			);
+			path = RSSegmentViewControllerExample;
+			sourceTree = "<group>";
+		};
+		A2773B711D0C662F00EB2825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2773B721D0C662F00EB2825 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A29EE2141D0D19EE006B1D39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A29EE21E1D0D1B02006B1D39 /* HomeViewController.h */,
+				A29EE21F1D0D1B02006B1D39 /* HomeViewController.m */,
+				A29EE2151D0D19EE006B1D39 /* ViewController1.h */,
+				A29EE2161D0D19EE006B1D39 /* ViewController1.m */,
+				A29EE2171D0D19EE006B1D39 /* ViewController2.h */,
+				A29EE2181D0D19EE006B1D39 /* ViewController2.m */,
+				A29EE2191D0D19EE006B1D39 /* ViewController3.h */,
+				A29EE21A1D0D19EE006B1D39 /* ViewController3.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2E7AEE11D0D49350087C8B9 /* RSSegmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7AEE21D0D49350087C8B9 /* MXSegmentedPager */,
+				A2E7AEF61D0D49350087C8B9 /* RSSegmentViewController.h */,
+				A2E7AEF71D0D49350087C8B9 /* RSSegmentViewController.m */,
+			);
+			name = RSSegmentViewController;
+			path = ../../RSSegmentViewController;
+			sourceTree = "<group>";
+		};
+		A2E7AEE21D0D49350087C8B9 /* MXSegmentedPager */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7AEE31D0D49350087C8B9 /* HMSegmentedControl */,
+				A2E7AEE61D0D49350087C8B9 /* MXPagerView */,
+				A2E7AEEB1D0D49350087C8B9 /* MXParallaxHeader */,
+				A2E7AEF21D0D49350087C8B9 /* MXSegmentedPager.h */,
+				A2E7AEF31D0D49350087C8B9 /* MXSegmentedPager.m */,
+				A2E7AEF41D0D49350087C8B9 /* MXSegmentedPagerController.h */,
+				A2E7AEF51D0D49350087C8B9 /* MXSegmentedPagerController.m */,
+			);
+			path = MXSegmentedPager;
+			sourceTree = "<group>";
+		};
+		A2E7AEE31D0D49350087C8B9 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7AEE41D0D49350087C8B9 /* HMSegmentedControl.h */,
+				A2E7AEE51D0D49350087C8B9 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		A2E7AEE61D0D49350087C8B9 /* MXPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7AEE71D0D49350087C8B9 /* MXPagerView.h */,
+				A2E7AEE81D0D49350087C8B9 /* MXPagerView.m */,
+				A2E7AEE91D0D49350087C8B9 /* MXPagerViewController.h */,
+				A2E7AEEA1D0D49350087C8B9 /* MXPagerViewController.m */,
+			);
+			path = MXPagerView;
+			sourceTree = "<group>";
+		};
+		A2E7AEEB1D0D49350087C8B9 /* MXParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7AEEC1D0D49350087C8B9 /* MXParallaxHeader.h */,
+				A2E7AEED1D0D49350087C8B9 /* MXParallaxHeader.m */,
+				A2E7AEEE1D0D49350087C8B9 /* MXScrollView.h */,
+				A2E7AEEF1D0D49350087C8B9 /* MXScrollView.m */,
+				A2E7AEF01D0D49350087C8B9 /* MXScrollViewController.h */,
+				A2E7AEF11D0D49350087C8B9 /* MXScrollViewController.m */,
+			);
+			path = MXParallaxHeader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2773B6D1D0C662F00EB2825 /* RSSegmentViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2773B851D0C662F00EB2825 /* Build configuration list for PBXNativeTarget "RSSegmentViewControllerExample" */;
+			buildPhases = (
+				A2773B6A1D0C662F00EB2825 /* Sources */,
+				A2773B6B1D0C662F00EB2825 /* Frameworks */,
+				A2773B6C1D0C662F00EB2825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSegmentViewControllerExample;
+			productName = RSSegmentViewControllerExample;
+			productReference = A2773B6E1D0C662F00EB2825 /* RSSegmentViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2773B661D0C662F00EB2825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Rushi Sangani";
+				TargetAttributes = {
+					A2773B6D1D0C662F00EB2825 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A2773B691D0C662F00EB2825 /* Build configuration list for PBXProject "RSSegmentViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2773B651D0C662F00EB2825;
+			productRefGroup = A2773B6F1D0C662F00EB2825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2773B6D1D0C662F00EB2825 /* RSSegmentViewControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2773B6C1D0C662F00EB2825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2773B811D0C662F00EB2825 /* LaunchScreen.storyboard in Resources */,
+				A2773B7E1D0C662F00EB2825 /* Assets.xcassets in Resources */,
+				A2773B7C1D0C662F00EB2825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2773B6A1D0C662F00EB2825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E7AEFE1D0D49350087C8B9 /* MXSegmentedPager.m in Sources */,
+				A2E7AEFC1D0D49350087C8B9 /* MXScrollView.m in Sources */,
+				A29EE21C1D0D19EE006B1D39 /* ViewController2.m in Sources */,
+				A2773B761D0C662F00EB2825 /* AppDelegate.m in Sources */,
+				A29EE21D1D0D19EE006B1D39 /* ViewController3.m in Sources */,
+				A2E7AEF81D0D49350087C8B9 /* HMSegmentedControl.m in Sources */,
+				A2E7AEFB1D0D49350087C8B9 /* MXParallaxHeader.m in Sources */,
+				A2E7AEFD1D0D49350087C8B9 /* MXScrollViewController.m in Sources */,
+				A2773B731D0C662F00EB2825 /* main.m in Sources */,
+				A2E7AEFF1D0D49350087C8B9 /* MXSegmentedPagerController.m in Sources */,
+				A29EE2201D0D1B02006B1D39 /* HomeViewController.m in Sources */,
+				A29EE21B1D0D19EE006B1D39 /* ViewController1.m in Sources */,
+				A2E7AEF91D0D49350087C8B9 /* MXPagerView.m in Sources */,
+				A2E7AEFA1D0D49350087C8B9 /* MXPagerViewController.m in Sources */,
+				A2E7AF001D0D49350087C8B9 /* RSSegmentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2773B7A1D0C662F00EB2825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2773B7B1D0C662F00EB2825 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2773B7F1D0C662F00EB2825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2773B801D0C662F00EB2825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2773B831D0C662F00EB2825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2773B841D0C662F00EB2825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2773B861D0C662F00EB2825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSSegmentViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushi.RSSegmentViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2773B871D0C662F00EB2825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSSegmentViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushi.RSSegmentViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2773B691D0C662F00EB2825 /* Build configuration list for PBXProject "RSSegmentViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2773B831D0C662F00EB2825 /* Debug */,
+				A2773B841D0C662F00EB2825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2773B851D0C662F00EB2825 /* Build configuration list for PBXNativeTarget "RSSegmentViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2773B861D0C662F00EB2825 /* Debug */,
+				A2773B871D0C662F00EB2825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2773B661D0C662F00EB2825 /* Project object */;
+}
