@@ -2,7 +2,9 @@
 
 The comprehensive control that manages **TabView Layout** like android or **Segmented Layout** using different ViewControllers. Its easy to use with mimium setup required. RSSegmentViewController is built upon [MXSegmentedPager] (https://github.com/maxep/MXSegmentedPager).
 
+
 ![Alt text](/Images/display.png?raw=true "Main")
+
 
 ## Features
 
