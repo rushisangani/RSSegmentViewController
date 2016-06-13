@@ -23,6 +23,7 @@
         self.selectedTextAtttibutes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
         
         self.selectionIndicatorColor = [UIColor orangeColor];
+        self.segmentControlBackGroundColor = [UIColor whiteColor];
     }
     return self;
 }
