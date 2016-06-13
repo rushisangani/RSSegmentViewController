@@ -16,13 +16,25 @@
     if(self){
         
         self.sectionTitles = @[@"Page 1", @"Page 2", @"Page 3"];
+        
         self.useTitleAsSegueIndentifier = YES;
+        
+        self.textAtttibutes = @{NSForegroundColorAttributeName : [UIColor darkGrayColor]};
+        self.selectedTextAtttibutes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
+        
+        self.selectionIndicatorColor = [UIColor orangeColor];
     }
     return self;
 }
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+}
+
+#pragma mark- Navigation
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    return YES;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
