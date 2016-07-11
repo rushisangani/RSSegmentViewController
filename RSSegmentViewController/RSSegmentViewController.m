@@ -42,6 +42,30 @@ static CGFloat kDefaultSegmentHeight = 46;
     [self prepareForLayout];
 }
 
+#pragma mark- Public methods
+
+-(void)updateSectionTitles:(NSMutableArray *)titles {
+    
+    _sectionTitles = titles;
+    self.segmentedPager.segmentedControl.sectionTitles = _sectionTitles;
+}
+
+-(void)updateTitle:(NSString *)title AtIndex:(NSUInteger)index {
+    
+    [_sectionTitles replaceObjectAtIndex:index withObject:title];
+    [self updateSectionTitles:_sectionTitles];
+}
+
+- (void)removePageAtIndex:(NSUInteger)index {
+
+    [_sectionTitles removeObjectAtIndex:index];
+    [self reloadData];
+}
+
+- (void)reloadData {
+    [self.segmentedPager reloadData];
+}
+
 #pragma mark- Private methods
 
 -(void)prepareForLayout {

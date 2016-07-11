@@ -15,7 +15,7 @@
     self = [super initWithCoder:aDecoder];
     if(self){
         
-        self.sectionTitles = @[@"Page 1", @"Page 2", @"Page 3"];
+        self.sectionTitles = [@[@"Page 1", @"Page 2", @"Page 3"] mutableCopy];
         
         self.useTitleAsSegueIndentifier = YES;
         
