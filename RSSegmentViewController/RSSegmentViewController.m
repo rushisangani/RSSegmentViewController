@@ -50,6 +50,7 @@ static CGFloat kDefaultSegmentHeight = 46;
        [_sectionTitles replaceObjectAtIndex:index withObject:title];
     }];
     
+    _sectionTitles = titles;
     self.segmentedPager.segmentedControl.sectionTitles = _sectionTitles;
 }
 
@@ -72,6 +73,11 @@ static CGFloat kDefaultSegmentHeight = 46;
     if(index == self.selectedPageIndex){
         [self.segmentedPager.segmentedControl setSelectedSegmentIndex:index-1 animated:YES];
     }
+}
+
+- (void)removePageAtIndex:(NSUInteger)index {
+
+    [_sectionTitles removeObjectAtIndex:index];
     [self reloadData];
 }
 
