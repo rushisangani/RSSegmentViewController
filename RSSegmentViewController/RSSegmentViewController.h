@@ -25,9 +25,9 @@
 
 @interface RSSegmentViewController : MXSegmentedPagerController
 
-@property (nonatomic, strong) NSArray *sectionTitles;                   // section titles array
+@property (nonatomic, strong) NSMutableArray *sectionTitles;            // section titles array
 
-@property (nonatomic, strong) NSArray *segueIdentifiers;                // segue identifiers array
+@property (nonatomic, strong) NSMutableArray *segueIdentifiers;         // segue identifiers array
 
 @property (nonatomic, assign) BOOL useTitleAsSegueIndentifier;          // set TRUE if you want to use title as segue identifier for the ViewController
 
@@ -38,5 +38,20 @@
 @property (nonatomic, strong) UIColor *segmentControlBackGroundColor;   // back ground color for segment
 
 @property (nonatomic, strong) UIColor *selectionIndicatorColor;         // color to be shown for selected tab
+
+@property (nonatomic, assign) NSUInteger selectedPageIndex;             // get current selected page
+
+
+/* public methods */
+
+-(void)updateTitle:(NSString *)title AtIndex:(NSUInteger)index;
+
+-(void)updateSectionTitles:(NSMutableArray *)titles;
+
+-(void)insertPageAtIndex:(NSUInteger)index withTitle:(NSString *)title;
+
+-(void)removePageAtIndex:(NSUInteger)index;
+
+-(void)reloadData;
 
 @end

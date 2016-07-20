@@ -42,6 +42,43 @@ static CGFloat kDefaultSegmentHeight = 46;
     [self prepareForLayout];
 }
 
+#pragma mark- Public methods
+
+-(void)updateSectionTitles:(NSMutableArray *)titles {
+    
+    [titles enumerateObjectsUsingBlock:^(NSString *_Nonnull title, NSUInteger index, BOOL * _Nonnull stop) {
+       [_sectionTitles replaceObjectAtIndex:index withObject:title];
+    }];
+    
+    self.segmentedPager.segmentedControl.sectionTitles = _sectionTitles;
+}
+
+-(void)updateTitle:(NSString *)title AtIndex:(NSUInteger)index {
+    
+    [_sectionTitles replaceObjectAtIndex:index withObject:title];
+    [self updateSectionTitles:_sectionTitles];
+}
+
+- (void)insertPageAtIndex:(NSUInteger)index withTitle:(NSString *)title {
+    
+    [_sectionTitles insertObject:title atIndex:index];
+    [self reloadData];
+}
+
+- (void)removePageAtIndex:(NSUInteger)index {
+
+    [_sectionTitles removeObjectAtIndex:index];
+    
+    if(index == self.selectedPageIndex){
+        [self.segmentedPager.segmentedControl setSelectedSegmentIndex:index-1 animated:YES];
+    }
+    [self reloadData];
+}
+
+- (void)reloadData {
+    [self.segmentedPager reloadData];
+}
+
 #pragma mark- Private methods
 
 -(void)prepareForLayout {
@@ -137,6 +174,10 @@ static CGFloat kDefaultSegmentHeight = 46;
         _selectionIndicatorColor = kSegmentSelectionIndicatorColor;
     }
     return _selectionIndicatorColor;
+}
+
+- (NSUInteger)selectedPageIndex {
+    return self.segmentedPager.pager.indexForSelectedPage;
 }
 
 @end
