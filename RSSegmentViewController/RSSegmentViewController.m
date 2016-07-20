@@ -73,6 +73,7 @@ static CGFloat kDefaultSegmentHeight = 46;
     if(index == self.selectedPageIndex){
         [self.segmentedPager.segmentedControl setSelectedSegmentIndex:index-1 animated:YES];
     }
+    [self reloadData];
 }
 
 - (void)removePageAtIndex:(NSUInteger)index {
